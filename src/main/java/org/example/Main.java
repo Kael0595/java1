@@ -1,18 +1,24 @@
 package org.example;
 
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
+// 100 - 1
 
-        int age = 19;
-
-        System.out.println("당신의 나이 : " + age);
-
-        if (age >= 20 && age <= 34) {
-            System.out.println("청년입니다.");
+        int a = 100;
+        while (a >= 1) {
+            System.out.println(a);
+            a--;
         }
-        else {
-            System.out.println("청년이 아닙니다.");
+
+        System.out.println();
+
+        for (int i = 100; i >= 1; i--) {
+            System.out.println(i);
         }
+
+
 
     }
 }
